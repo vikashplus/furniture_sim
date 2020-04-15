@@ -16,7 +16,7 @@
         <geom class="viz_Wood_simpleTable" type="box" size="0.025 0.025 0.305" pos="0.565 0.235 0.305"/>
         <geom class="viz_Wood_simpleTable" type="box" size="0.025 0.025 0.305" pos="0.565 -0.235 0.305"/>
 
-        <geom type="box" size=".6 .275 .025" pos="0 0 0.735" mass="40" />
+        <geom type="box" size=".6 .375 .025" pos="0 0 0.735" mass="40" />
         <geom type="box" size="0.59 0.26 .05" pos="0 0 0.66"/>
         <geom type="box" size="0.025 0.025 0.305" pos="-0.565 0.235 0.305"/>
         <geom type="box" size="0.025 0.025 0.305" pos="-0.565 -0.235 0.305"/>
