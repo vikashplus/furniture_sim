@@ -9,11 +9,23 @@
     <compiler angle="radian" />
     <include file="../furniture_sim/microwave/microwave_asset.xml"/>
 
+    <!--- Microwave -©vk©-->
     <worldbody>
 
-        <!--- Microwave -©vk©-->
-        <body>
+        <body pos="-1.5 0 0">
             <include file="../furniture_sim/microwave/microwave_body.xml"/>
+        </body>
+
+        <body pos="-.75 0 0">
+            <include file="../furniture_sim/microwave/microwave_body1.xml"/>
+        </body>
+
+        <body pos="0 0 0">
+            <include file="../furniture_sim/microwave/microwave_body2.xml"/>
+        </body>
+
+        <body pos=".75 0 0">
+            <include file="../furniture_sim/microwave/microwave_body3.xml"/>
         </body>
 
     </worldbody>
