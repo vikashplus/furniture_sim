@@ -1,5 +1,5 @@
 # furniture_sim
-MuJoCo simulation for common furnitures 
+MuJoCo simulation for common furnitures
 
 
 bin.xml |  simpleTable.xml | studyTable.xml |
@@ -16,4 +16,4 @@ kitchen.xml |  oven.xml | counters.xml |
 
 kettle.xml |   |  |
 :-------------------------:|:-------------------------:|:-------------------------:
-![Alt text](kettle/kettle.png?raw=false "kettle") |  |  |
+![Alt text](kettle/kettles.png?raw=false "kettle") |  |  |
