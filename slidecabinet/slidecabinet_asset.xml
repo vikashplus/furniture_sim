@@ -1,6 +1,6 @@
 <mujocoinclude>
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: slidecabinet (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -24,5 +24,9 @@
             </default>
         </default>
     </default>
+
+    <sensor>
+        <jointpos name="slidedoor_joint" joint="slidedoor_joint"/>
+    </sensor>
 
 </mujocoinclude>

@@ -1,6 +1,6 @@
 <mujocoinclude>
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: microwave (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -33,5 +33,9 @@
             </default>
         </default>
     </default>
+
+    <sensor>
+        <jointpos name="microjoint" joint="microjoint"/>
+    </sensor>
 
 </mujocoinclude>

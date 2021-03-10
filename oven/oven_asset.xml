@@ -1,6 +1,6 @@
 <mujocoinclude>
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: oven (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -49,5 +49,13 @@
         <joint polycoef="0 174 0 0 0" joint1="knob_Joint_4" joint2="burner_Joint_4"/>
         <joint polycoef="0 14 0 0 0" joint1="lightswitch_joint" joint2="light_joint"/>
     </equality>
-    
+
+    <sensor>
+        <jointpos name='knob_Joint_1' joint= 'knob_Joint_1'/>
+        <jointpos name='knob_Joint_2' joint= 'knob_Joint_2'/>
+        <jointpos name='knob_Joint_3' joint= 'knob_Joint_3'/>
+        <jointpos name='knob_Joint_4' joint= 'knob_Joint_4'/>
+        <jointpos name='lightswitch_joint' joint= 'lightswitch_joint'/>
+    </sensor>
+
 </mujocoinclude>
