@@ -39,7 +39,7 @@
         <geom class="oven_collision" euler="1.57 0 0" pos=".184 -0.36 0.254" size="0.018 0.03" type="cylinder" mass=".2"/>
         <geom class="oven_collision" euler="0 1.57 0" pos="-0.015 -0.39 0.254" size="0.022 0.28" type="cylinder" mass=".2"/>
         <body name="knob 1" euler="1.57 0 0" pos="-0.148 0.22 1.243">
-            <joint name="knob_Joint_1" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
+            <joint name="knob1_joint" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
             <geom type="box" pos="0 0 .038" size=".014 .048 .018"/>
             <geom type="cylinder" pos="0 0 .013" size=".05 .008"/>
             <geom type="cylinder" pos="0 0.048 .037" size=".014 .018" rgba="1 0 0 1"/>
@@ -50,11 +50,11 @@
         </body>
         <body name="Burner 1" pos="0.206 -0.119 0.61">
             <inertial pos="0 0 0" mass=".01" diaginertia="0.001 0.001 0.001"/>
-            <joint name="burner_Joint_1" axis="0 0 -1" type="slide" limited="true" range="-.009 0"/>
+            <joint name="burner1_joint" axis="0 0 -1" type="slide" limited="true" range="-.009 0"/>
             <geom material="oven_burner" size="0.1 0.01" type="cylinder"/>
         </body>
         <body name="knob 2" euler="1.57 0 0" pos="-0.271 0.22 1.243">
-            <joint name="knob_Joint_2" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
+            <joint name="knob2_joint" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
             <geom type="box" pos="0 0 .038" size=".014 .048 .018"/>
             <geom type="cylinder" pos="0 0 .013" size=".05 .008"/>
             <geom type="cylinder" pos="0 0.048 .037" size=".014 .018" rgba="1 0 0 1"/>
@@ -65,11 +65,11 @@
         </body>
         <body name="Burner 2" pos="-0.24 -0.119 0.61">
             <inertial pos="0 0 0" mass=".01" diaginertia="0.001 0.001 0.001"/>
-            <joint name="burner_Joint_2" axis="0 0 -1" type="slide" limited="true" stiffness="1" range="-.009 0"/>
+            <joint name="burner2_joint" axis="0 0 -1" type="slide" limited="true" stiffness="1" range="-.009 0"/>
             <geom material="oven_burner" size="0.1 0.01" type="cylinder" group="1"/>
         </body>
         <body name="knob 3" euler="1.57 0 0" pos="-0.148 0.22 1.357">
-            <joint name="knob_Joint_3" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
+            <joint name="knob3_joint" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
             <geom type="box" pos="0 0 .038" size=".014 .048 .018"/>
             <geom type="cylinder" pos="0 0 .013" size=".05 .008"/>
             <geom type="cylinder" pos="0 0.048 .037" size=".014 .018" rgba="1 0 0 1"/>
@@ -80,11 +80,11 @@
         </body>
         <body name="Burner 3" pos="0.204 0.322 0.61">
             <inertial pos="0 0 0" mass=".01" diaginertia="0.001 0.001 0.001"/>
-            <joint name="burner_Joint_3" axis="0 0 -1" type="slide" limited="true" stiffness="1" range="-.009 0"/>
+            <joint name="burner3_joint" axis="0 0 -1" type="slide" limited="true" stiffness="1" range="-.009 0"/>
             <geom material="oven_burner" size="0.1 0.01" type="cylinder" group="1"/>
         </body>
         <body name="knob 4" euler="1.57 0 0" pos="-0.271 0.22 1.357">
-            <joint name="knob_Joint_4" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
+            <joint name="knob4_joint" axis="0 0 1" type="hinge" limited="true" range="-1.57 0"/>
             <geom type="box" pos="0 0 .038" size=".014 .048 .018"/>
             <geom type="cylinder" pos="0 0 .013" size=".05 .008"/>
             <geom type="cylinder" pos="0 0.048 .037" size=".014 .018" rgba="1 0 0 1"/>
@@ -95,7 +95,7 @@
         </body>
         <body name="Burner 4" pos="-0.237 0.322 0.61">
             <inertial pos="0 0 0" mass=".01" diaginertia="0.001 0.001 0.001"/>
-            <joint name="burner_Joint_4" axis="0 0 -1" type="slide" limited="true" stiffness="1" range="-.009 0"/>
+            <joint name="burner4_joint" axis="0 0 -1" type="slide" limited="true" stiffness="1" range="-.009 0"/>
             <geom material="oven_burner" size="0.1 0.01" type="cylinder" group="1"/>
         </body>
     </body>

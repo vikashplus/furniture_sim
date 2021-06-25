@@ -43,18 +43,18 @@
     </default>
 
     <equality>
-        <joint polycoef="0 174 0 0 0" joint1="knob_Joint_1" joint2="burner_Joint_1"/>
-        <joint polycoef="0 174 0 0 0" joint1="knob_Joint_2" joint2="burner_Joint_2"/>
-        <joint polycoef="0 174 0 0 0" joint1="knob_Joint_3" joint2="burner_Joint_3"/>
-        <joint polycoef="0 174 0 0 0" joint1="knob_Joint_4" joint2="burner_Joint_4"/>
+        <joint polycoef="0 174 0 0 0" joint1="knob1_joint" joint2="burner1_joint"/>
+        <joint polycoef="0 174 0 0 0" joint1="knob2_joint" joint2="burner2_joint"/>
+        <joint polycoef="0 174 0 0 0" joint1="knob3_joint" joint2="burner3_joint"/>
+        <joint polycoef="0 174 0 0 0" joint1="knob4_joint" joint2="burner4_joint"/>
         <joint polycoef="0 14 0 0 0" joint1="lightswitch_joint" joint2="light_joint"/>
     </equality>
 
     <sensor>
-        <jointpos name='knob_Joint_1' joint= 'knob_Joint_1'/>
-        <jointpos name='knob_Joint_2' joint= 'knob_Joint_2'/>
-        <jointpos name='knob_Joint_3' joint= 'knob_Joint_3'/>
-        <jointpos name='knob_Joint_4' joint= 'knob_Joint_4'/>
+        <jointpos name='knob1_joint' joint= 'knob1_joint'/>
+        <jointpos name='knob2_joint' joint= 'knob2_joint'/>
+        <jointpos name='knob3_joint' joint= 'knob3_joint'/>
+        <jointpos name='knob4_joint' joint= 'knob4_joint'/>
         <jointpos name='lightswitch_joint' joint= 'lightswitch_joint'/>
     </sensor>
 
