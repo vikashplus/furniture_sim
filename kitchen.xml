@@ -38,7 +38,7 @@
         </body>
         <body name="kettle" pos="-0.169 0 1.626">
             <freejoint/>
-            <include file="../furniture_sim/kettle/kettle_body.xml"/>
+            <include file="../furniture_sim/kettle/kettle_body0.xml"/>
         </body>
     </worldbody>
 
