@@ -8,7 +8,6 @@
 ====================================================== -©vk©-->
     <compiler angle="radian" meshdir="" texturedir=""/>
     <include file="../furniture_sim/kettle/kettle_asset.xml"/>
-    <include file="../scene_sim/basic_scene.xml"/>
 
     <worldbody>
 

@@ -1,6 +1,6 @@
 <mujoco model="slidecabinet">
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: slidecabinet (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -8,7 +8,6 @@
 ====================================================== -©vk©-->
     <compiler meshdir="" texturedir=""/>
     <include file="../furniture_sim/slidecabinet/slidecabinet_asset.xml"/>
-    <include file='../scene_sim/basic_scene.xml'/>
 
     <worldbody>
 
