@@ -25,7 +25,8 @@
         <geom type="box" size=".002 .015 .015" pos="-0.025 -0.025 .015" rgba="0.8 0.9 0.7 1.0" euler="0 0 .785" />
         <geom type="box" size=".02 .02 .002" pos="0 0 0" />
         <body >
-            <geom type="cylinder" size=".03 .01" pos='0 0 .02' rgba="0.3 0 0 1.0" group="1" mass="0.01" />
+            <geom type="cylinder" size=".03 .01" pos='0 0 .02' class='class_button_col' mass="0.01" />
+            <geom type="cylinder" size=".03 .01" pos='0 0 .02' rgba="0.3 0 0 1.0" class="viz_holder"/>
             <joint name="red button" type="slide" pos="0 0 0" axis="0 0 1" damping="1" stiffness="10" />
         </body>
     </body>
@@ -43,7 +44,8 @@
         <geom type="box" size=".002 .015 .015" pos="-0.025 -0.025 .015" rgba="0.8 0.9 0.7 1.0" euler="0 0 .785" />
         <geom type="box" size=".02 .02 .002" pos="0 0 0" />
         <body >
-            <geom type="cylinder"  size=".03 .01" pos='0 0 .02' rgba="0 0.3 0 1.0" group="1" mass="0.01" />
+            <geom type="cylinder"  size=".03 .01" pos='0 0 .02' class='class_button_col' mass="0.01" />
+            <geom type="cylinder"  size=".03 .01" pos='0 0 .02' rgba="0 0.3 0 1.0" class="viz_holder"/>
             <joint name="green button" type="slide" pos="0 0 0" axis="0 0 1" damping="1" stiffness="10" />
         </body>
     </body>
@@ -61,7 +63,8 @@
         <geom type="box" size=".002 .015 .015" pos="-0.025 -0.025 .015" rgba="0.8 0.9 0.7 1.0" euler="0 0 .785" />
         <geom type="box" size=".02 .02 .002" pos="0 0 0" />
         <body >
-            <geom type="cylinder"  size=".03 .01" pos='0 0 .02' rgba="0 0 0.3 1.0" group="1" mass="0.01" />
+            <geom type="cylinder"  size=".03 .01" pos='0 0 .02' class='class_button_col' mass="0.01" />
+            <geom type="cylinder"  size=".03 .01" pos='0 0 .02' rgba="0 0 0.3 1.0" class="viz_holder"/>
             <joint name="blue button" type="slide" pos="0 0 0" axis="0 0 1" damping="1" stiffness="10" />
         </body>
     </body>

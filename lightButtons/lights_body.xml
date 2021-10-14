@@ -19,6 +19,7 @@
     	<geom type="cylinder" size=".08 .02" pos="0 0 .011" class='class_lights_col'/>
 
     	<body>
+	        <geom type="cylinder" size=".06 .0075" rgba=".4 .5 .6 1" group="3" mass="0.01" />
 	        <geom type="cylinder" size=".06 .0075" rgba="1 0 0 .4" group="1" mass="0.01" />
 	        <joint name="red light" type="slide" axis="0 0 -1" />
 	    </body>
@@ -30,6 +31,7 @@
     	<geom type="cylinder" size=".08 .02" pos="0 0 .011" class='class_lights_col'/>
 
         <body>
+	        <geom type="cylinder" size=".06 .0075" rgba=".4 .5 .6 1" group="3" mass="0.01" />
 	        <geom type="cylinder" size=".06 .0075" rgba="0 1 0 .4" group="1" mass="0.01" />
 	        <joint name="green light" type="slide" axis="0 0 -1" />
 	    </body>
@@ -41,6 +43,7 @@
     	<geom type="cylinder" size=".08 .02" pos="0 0 .011" class='class_lights_col'/>
 
         <body>
+	        <geom type="cylinder" size=".06 .0075" rgba=".4 .5 .6 1" group="3" mass="0.01" />
 	        <geom type="cylinder" size=".06 .0075" rgba="0 0 1 .4" group="1" mass="0.01" />
 	        <joint name="blue light" type="slide" axis="0 0 -1" />
 	    </body>
