@@ -1,6 +1,6 @@
 <mujoco model="simpleTable">
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: simple table (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com), Michael Wu (michael50wu@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -9,9 +9,18 @@
 
     <compiler angle="radian" meshdir="" texturedir=""/>
     <include file="../furniture_sim/simpleTable/simpleTable_asset.xml"/>
+    <visual>
+        <headlight diffuse=".9 .9 .9"/>
+    </visual>
 
     <worldbody>
-        <include file="../furniture_sim/simpleTable/simpleTable_body.xml" />
+
+        <body pos="0 0 0">
+            <include file="../furniture_sim/simpleTable/simpleWoodTable_body.xml" />
+        </body>
+        <body pos="0 1 0">
+            <include file="../furniture_sim/simpleTable/simpleMarbleTable_body.xml" />
+        </body>
     </worldbody>
 
 </mujoco>
