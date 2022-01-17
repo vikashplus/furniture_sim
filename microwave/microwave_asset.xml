@@ -37,7 +37,7 @@
 
     <!-- ToDo: Sensors are specific to a microwave instance. Move them to instance specific asset if needed. -->
     <sensor>
-        <jointpos name="microjoint0" joint="microjoint0"/>
+        <jointpos name="micro0joint" joint="micro0joint"/>
     </sensor>
 
 </mujocoinclude>
