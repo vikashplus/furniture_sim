@@ -8,7 +8,9 @@
 ====================================================== -©vk©-->
     <compiler angle="radian" />
     <include file="../furniture_sim/microwave/microwave_asset.xml"/>
-
+    <visual>
+        <headlight diffuse=".9 .9 .9"/>
+    </visual>
     <!--- Microwave -©vk©-->
     <worldbody>
 
