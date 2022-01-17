@@ -13,7 +13,7 @@
     <worldbody>
 
         <body pos="-1.5 0 0">
-            <include file="../furniture_sim/microwave/microwave_body.xml"/>
+            <include file="../furniture_sim/microwave/microwave_body0.xml"/>
         </body>
 
         <body pos="-.75 0 0">
