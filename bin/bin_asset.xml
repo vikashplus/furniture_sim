@@ -1,6 +1,6 @@
 <mujocoinclude>
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: bin (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com), Michael Wu (michael50wu@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -8,6 +8,7 @@
 ====================================================== -©vk©-->
     <asset>
         <mesh name="bin" file="../furniture_sim/bin/meshes/bin.stl" scale="0.01 0.01 0.01" />
+        <mesh name="busbin" file="../furniture_sim/bin/meshes/busbin.stl"/>
         <texture name="T_Metal_bin" type="cube" height="1" width="1" file="../furniture_sim/bin/textures/metal.png" />
         <material name="M_Metal_bin" texture="T_Metal_bin" texrepeat="3 3" reflectance="0.7" texuniform="false" />
     </asset>
