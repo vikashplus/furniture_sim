@@ -20,8 +20,8 @@
         <mesh file="../furniture_sim/oven/meshes/oventop.stl" name="oventop"/>
         <mesh file="../furniture_sim/oven/meshes/ovenwindow.stl" name="ovenwindow"/>
 
-        <texture name="T_oven_wood" type="cube" height="1" width="1" file="../furniture_sim/oven/textures/wood1.png"/>
-        <texture name="T_oven_metal" type="cube" height="1" width="1" file="../furniture_sim/oven/textures/metal1.png"/>
+        <texture name="T_oven_wood" type="cube" height="1" width="1" file="../furniture_sim/common/textures/wood0.png"/>
+        <texture name="T_oven_metal" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png"/>
 
         <material name="oven_wood" texture="T_oven_wood" texrepeat="3 3" reflectance="0.7" shininess=".4" texuniform="false"/>
         <material name="oven_metal" rgba="1 1 1 1" texture="T_oven_metal" texrepeat="3 3" reflectance="1" shininess="1" texuniform="false"/>

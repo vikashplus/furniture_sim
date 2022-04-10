@@ -1,6 +1,6 @@
 <mujocoinclude>
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: study table (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com), Michael Wu (michael50wu@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -14,8 +14,8 @@
         <mesh name="studyTable_Slide_Handle" file="../furniture_sim/studyTable/meshes/studyTable_Slide_Handle.stl" scale="0.01 0.01 0.01" />
         <mesh name="studyTable_Drawer_Wood" file="../furniture_sim/studyTable/meshes/studyTable_Drawer_Wood.stl" scale="0.01 0.01 0.01" />
         <mesh name="studyTable_Drawer_Handle" file="../furniture_sim/studyTable/meshes/studyTable_Drawer_Handle.stl" scale="0.01 0.01 0.01" />
-        <texture name="T_Wood_studyTable" type="cube" height="1" width="1" file="../furniture_sim/studyTable/textures/wood.png" />
-        <texture name="T_Metal_studyTable" type="cube" height="1" width="1" file="../furniture_sim/studyTable/textures/metal.png" />
+        <texture name="T_Wood_studyTable" type="cube" height="1" width="1" file="../furniture_sim/common/textures/wood0.png" />
+        <texture name="T_Metal_studyTable" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png" />
 
         <material name="M_Wood_studyTable" texture="T_Wood_studyTable" rgba="0.8 0.8 0.8 1" shininess="0.2" reflectance="0.3" texuniform="false" />
         <material name="M_Metal_studyTable" texture="T_Metal_studyTable" texrepeat="3 3" reflectance="0.7" texuniform="false" />

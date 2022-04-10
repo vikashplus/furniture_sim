@@ -16,7 +16,7 @@
     <asset>
         <mesh name="ButtonHolder" file="../furniture_sim/lightButtons/meshes/ButtonHolder.stl" scale="0.01 0.01 0.01" />
         <mesh name="lightsHolder" file="../furniture_sim/lightButtons/meshes/ButtonHolder.stl" scale="0.02 0.01 0.02" />
-        <texture name="T_Metal_lightButton" type="cube" height="1" width="1" file="../furniture_sim/lightButtons/textures/metal.png" />
+        <texture name="T_Metal_lightButton" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png" />
         <material name="M_Metal_lightButton" texture="T_Metal_lightButton" texrepeat="3 3" reflectance="0.7" texuniform="false" />
 	</asset>
 

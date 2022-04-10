@@ -1,6 +1,6 @@
 <mujocoinclude>
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: backwall (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -9,8 +9,8 @@
     <compiler inertiafromgeom="auto" inertiagrouprange="4 4" angle="radian"/>
 
     <asset>
-        <texture name="T_wall_marble" type="cube" height="1" width="1" file="../furniture_sim/backwall/textures/marble1.png"/>
-        <texture name="T_wall_metal" type="cube" height="1" width="1" file="../furniture_sim/backwall/textures/metal1.png"/>
+        <texture name="T_wall_marble" type="cube" height="1" width="1" file="../furniture_sim/common/textures/stone0.png"/>
+        <texture name="T_wall_metal" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png"/>
 
         <material name="wall_white" rgba="1 1 1 1" reflectance="0" shininess="0"/>
         <material name="wall_blue" rgba=".66 .7 .8 1" reflectance="0" shininess="0"/>

@@ -1,6 +1,6 @@
 <mujoco model="counters">
 <!-- =================================================
-    Copyright 2019 Vikash Kumar 
+    Copyright 2019 Vikash Kumar
     Model   :: counters (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com)
     Details :: https://github.com/vikashplus/furniture_sim
@@ -12,7 +12,8 @@
     <worldbody>
 
         <body>
-            <include file="../furniture_sim/counters/counters_body.xml"/>
+            <include file="../furniture_sim/counters/sink_counter_body.xml"/>
+            <include file="../furniture_sim/counters/box_counter_body.xml"/>
         </body>
 
     </worldbody>

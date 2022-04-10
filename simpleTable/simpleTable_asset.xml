@@ -8,11 +8,11 @@
 ====================================================== -©vk©-->
 
     <asset>
-        <texture name="T_simpleWoodTable" type="cube" height="1" width="1" file="../furniture_sim/simpleTable/textures/simpleTable_wood.png" />
+        <texture name="T_simpleWoodTable" type="cube" height="1" width="1" file="../furniture_sim/common/textures/wood1.png" />
         <material name="M_simpleWoodTable" texture="T_simpleWoodTable" rgba="0.8 0.8 0.8 1" shininess="0.2" reflectance="0.3" texuniform="false" />
-        <texture name="T_simpleMarbleTable" type="cube" height="1" width="1" file="../furniture_sim/simpleTable/textures/simpleTable_marble.png" />
+        <texture name="T_simpleMarbleTable" type="cube" height="1" width="1" file="../furniture_sim/common/textures/stone0.png" />
         <material name="M_simpleMarbleTable" texture="T_simpleMarbleTable" rgba="0.75 0.75 0.75 1" shininess="1" reflectance="1" texuniform="false" />
-        <texture name="T_simpleGraniteTable" type="cube" height="1" width="1" file="../furniture_sim/simpleTable/textures/simpleTable_granite.png" />
+        <texture name="T_simpleGraniteTable" type="cube" height="1" width="1" file="../furniture_sim/common/textures/stone1.png" />
         <material name="M_simpleGraniteTable" texture="T_simpleGraniteTable" rgba="0.75 0.75 0.75 1" shininess="1" reflectance="1" texuniform="false" />
     </asset>
 
