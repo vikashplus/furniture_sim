@@ -19,9 +19,11 @@
     <include file="../../furniture_sim/kettle/kettle_asset.xml"/>
     <worldbody>
         <body name="kitchen" pos="0 0 0">
-            <body name="counters" pos="0 0 0">
-                <include file="../../furniture_sim/counters/box_counter_body.xml"/>
+            <body name="sink" pos="0 0 0">
                 <include file="../../furniture_sim/counters/sink_counter_body.xml"/>
+            </body>
+            <body name="island" pos="0 0 0">
+                <include file="../../furniture_sim/counters/box_counter_body.xml"/>
             </body>
             <body name="oven" pos="0 0 0">
                 <include file="../../furniture_sim/oven/oven_body.xml"/>

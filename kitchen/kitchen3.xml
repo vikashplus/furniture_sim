@@ -19,7 +19,7 @@
     <include file="../../furniture_sim/kettle/kettle_asset.xml"/>
     <worldbody>
         <body name="kitchen" pos="0 0 0">
-            <body name="sink" pos="-1.6 0 0">
+            <body name="sink" pos="-1.620 0 0">
                 <include file="../../furniture_sim/counters/sink_counter_body.xml"/>
             </body>
             <body name="island" pos="1.92 0 0">
@@ -28,13 +28,13 @@
             <body name="oven" pos="0.0 0 0">
                 <include file="../../furniture_sim/oven/oven_body.xml"/>
             </body>
-            <body name="backwall" pos="0.3 0 0">
+            <!-- <body name="backwall" pos="0.3 0 0">
                 <include file="../../furniture_sim/backwall/backwall_body.xml"/>
-            </body>
+            </body> -->
             <body name="slidecabinet" pos="-.5 0.28 2.6" euler="0 3.14 0">
                 <include file="../../furniture_sim/slidecabinet/slidecabinet_body.xml"/>
             </body>
-            <body name="hingecabinet1" pos=".4 0.28 2.6">
+            <body name="hingecabinet" pos=".4 0.28 2.6">
                 <include file="../../furniture_sim/hingecabinet/hingecabinet_body.xml"/>
             </body>
             <body name="microwave" pos="1. -.25 1.6" euler="0 0 -.3">

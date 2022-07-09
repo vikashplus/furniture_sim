@@ -35,7 +35,6 @@
         </default>
     </default>
 
-    <!-- ToDo: Sensors are specific to a microwave instance. Move them to instance specific asset if needed. -->
     <sensor>
         <jointpos name="micro0joint" joint="micro0joint"/>
     </sensor>

@@ -25,7 +25,7 @@
         <geom class="micro_collision" type="cylinder" size=".03 .01" pos="0.25 -.25 .08" euler="1.57 0 0"/>
 
         <body name="microdoorroot3">
-            <joint axis="0 0 1" pos="-.3 -.2 .20" limited="true" name="microjoint3" range="-2.094 0"/>
+            <joint axis="0 0 1" pos="-.3 -.2 .20" limited="true" name="micro0joint" range="-2.094 0"/>
             <geom type="box" size=".245 .02 .20" pos="-.05 -.225 .20" material="micro_white"/>
             <geom type="box" size=".2 .02 .12" pos="-.05 -.24 .20" material="micro_black" rgba=".1 0 0 .2"/>
             <geom material="micro_metal" pos="0.15 -0.3 0.20" size="0.02 0.17" type="capsule"/>

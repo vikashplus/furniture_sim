@@ -18,7 +18,7 @@
             <include file="../furniture_sim/microwave/microwave_body0.xml"/>
         </body>
 
-        <body pos="-.75 0 0">
+        <!-- <body pos="-.75 0 0">
             <include file="../furniture_sim/microwave/microwave_body1.xml"/>
         </body>
 
@@ -28,7 +28,7 @@
 
         <body pos=".75 0 0">
             <include file="../furniture_sim/microwave/microwave_body3.xml"/>
-        </body>
+        </body> -->
 
     </worldbody>
 
