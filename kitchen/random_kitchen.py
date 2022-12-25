@@ -148,7 +148,7 @@ def randomize_layout(sim, np_random):
     sel_grid = counter_loc[1-opt]
     bid = sim.model.body_name2id('sink')
     sim.model.body_pos[bid] = layout['sink'][sel_grid]
-    # Don't mount anything next to sync
+    # Don't mount anything next to sink
     for side in ['L','R']:
         app_xyz[sel_grid+side+'B']['accept'] = False
 
