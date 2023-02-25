@@ -26,10 +26,12 @@
         <geom mesh="stoverim" pos="-0.24 -0.12 0.619"/>
         <geom mesh="stoverim" pos="-0.237 0.323 0.619"/>
         <geom mesh="stoverim" pos="0.207 -0.12 0.619"/>
-        <geom pos="-0.017 -.326 .455" size="0.5 0.016 0.12" type="box"/>
+
+        <geom mesh="oven" pos="-.115 .295 -.98"/>
+        <!-- <geom pos="-0.017 -.326 .455" size="0.5 0.016 0.12" type="box"/>
         <geom pos="-0.017 -.326 -.795" size="0.5 0.016 0.185" type="box"/>
         <geom pos="-0.017 -.326 -.14" size="0.5 0.016 0.465" type="box"/>
-        <geom pos="-0.017 0.295 -0.2" size="0.5 0.602 0.78" type="box"/>
+        <geom pos="-0.017 0.295 -0.2" size="0.5 0.602 0.78" type="box"/> -->
 
         <geom class="oven_collision" pos="-0.017 0.28 -0.175" size="0.5 0.625 0.81" type="box" mass="5"/>
         <geom class="oven_collision" euler="1.57 0 0" pos="-.215 -0.36 -0.682" size="0.018 0.03" type="cylinder" mass=".2"/>
