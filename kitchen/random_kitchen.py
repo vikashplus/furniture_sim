@@ -15,7 +15,7 @@ try:
 except ImportError as e:
     raise ImportError("(HINT: you need to install mujoco_py, and also perform the setup instructions here: https://github.com/openai/mujoco-py/.)")
 
-from mj_envs.utils.quat_math import euler2quat
+from robohive.utils.quat_math import euler2quat
 
 
 def get_sim(model_path:str=None, model_xmlstr=None):
