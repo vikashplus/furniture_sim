@@ -9,6 +9,7 @@
     <asset>
         <mesh name="bin" file="../furniture_sim/bin/meshes/bin.stl" scale="0.01 0.01 0.01" />
         <mesh name="busbin" file="../furniture_sim/bin/meshes/busbin.stl"/>
+        <mesh name="lowbin" file="../furniture_sim/bin/meshes/lowbin.stl" scale="0.001 0.001 0.001"/>
         <texture name="T_Metal_bin" type="cube" height="1" width="1" file="../furniture_sim/common/textures/metal0.png" />
         <material name="M_Metal_bin" texture="T_Metal_bin" texrepeat="3 3" reflectance="0.7" texuniform="false" />
     </asset>
